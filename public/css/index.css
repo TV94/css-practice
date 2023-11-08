@@ -1,7 +1,174 @@
+/* :root {
+  background: purple;
+}
 html {
   max-width: 720px;
+  background: blue;
 }
 
 body {
   background: #fff;
 }
+
+*{
+  color: red;
+}
+
+h1{
+  color: green;
+}
+
+h1{
+  color: rgb(73, 19, 173);
+}
+
+.box {
+  background: rgb(109, 121, 119);
+}
+
+h1, 
+h2#user, 
+button.button {
+  color: green;
+}
+
+h1.button {
+  background: red;
+  color: black;
+}
+
+#user, .user {
+  color:blue;
+}
+
+#box > p {
+  color: antiquewhite;
+}
+
+footer > .user {
+  color: blanchedalmond;
+}
+h1 + p {
+  background: black;
+}
+
+.card-dark {
+background: #e4b6b6;
+}
+
+.item {
+  color: green;
+}
+
+.item:only-of-type {
+  color: blue;
+}
+
+.item:nth-child(2n+1) {
+  color: #78ff09;
+}
+
+.input-dark {
+  background: #5e5959;
+}
+
+.input-dark[required] {
+  background: #c20c0c;
+}
+
+.input-dark[type='number'] {
+  background: #0cc215;
+}
+
+.small-img[alt~="small"] {
+  height: 500px;
+}
+
+a[rel~='external'] {
+  color: #c20c0c;
+}
+
+button[class|='btn'] {
+  background:aqua;
+}
+
+a[class^='btn'] {
+  background:rgb(170, 27, 87);
+}
+
+.btn::first-letter  {
+  color: red;
+}
+
+.btn::first-line  {
+  color: rgb(44, 14, 177);
+}
+
+#test:target {
+  color: rgb(138, 70, 70);
+}
+
+.link:hover {
+  color:#0cc215
+}
+
+.card:hover {
+  background: green;
+}
+
+.link:active {
+  color: purple;
+}
+
+input {
+  background-color: #5e5959;
+}
+
+input:focus {
+  background-color: #6e0909;
+}
+
+.card:focus-within {
+  background: red;
+}
+
+.card:lang(en) > span::after {
+  content: '(en)';
+}
+
+button {
+  background-color: #3bd354;
+}
+
+button:enabled {
+  background-color: #0b9622;
+}
+
+button:disabled {
+  background-color: #103d18;
+  color: white;
+}
+
+.inp:read-only {
+  background-color: blue;
+}
+
+input[type="checkbox"]:checked ~ span{
+  background: rgb(170, 101, 101);
+} */
+
+.card-dark {
+  background: #e4b6b6;
+  }
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.test {
+  display: none;
+}
+
+
+
+
