@@ -19,7 +19,7 @@
   --color-title: #212529;
   --color-text: #343a40;
 
-
+  --border-radius-b: 24px;
   --border-radius-d: 12px;
   --border-radius-s: 4px;
 
@@ -279,7 +279,7 @@ gap: 16px;
   height: 180px;
   width: 305px;
  
-  border-radius: 24px;
+  border-radius: var(--border-radius-b);
 }
 
 
@@ -320,7 +320,7 @@ color: var(--color-white);
   flex: none;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 701;
+  font-weight: 700;
   font-size: 14px;
   color: #FFFFFF;
 
