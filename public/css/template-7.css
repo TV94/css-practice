@@ -188,7 +188,7 @@ border-radius: 10px;
 background: #885FFB;
 
 color: var(--color-white);
-font-size: 16px;
+font-size: var(--size-d);
 font-weight: 700;
 line-height: 100%;
 }
