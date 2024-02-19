@@ -23,6 +23,7 @@
   --border-radius-d: 12px;
   --border-radius-s: 4px;
 
+  --weight-font: 700;
   --weight-title: 600;
   --weight-text: 400;
 
@@ -63,7 +64,7 @@
   padding: 8px 12px;
   gap: 10px;
 
-  font-weight: 700;
+  font-weight: var(--weight-font);
 
   border-radius: 10px;
 
