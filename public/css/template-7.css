@@ -126,7 +126,7 @@
   background: rgba(136, 95, 251, 0.20);
   color: #885ffb;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: var(--weight-font);
 }
 
 .batton_ad:hover {
